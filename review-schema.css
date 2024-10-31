@@ -1,0 +1,31 @@
+.inline-rating {
+	display: inline;
+}
+.review-star-empty {
+	background: url('empty-star.png') scroll 0 0 no-repeat transparent;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+.review-star {
+	background: url('full-star.png') scroll 0 0 no-repeat transparent;
+	display: inline-block;
+	max-height: 16px;
+	max-width: 16px;
+}
+.review-star.full {
+	height: 16px;
+	width: 16px;
+}
+.review-blank {
+	background: url('empty-stars.png') scroll 0 0 no-repeat transparent;
+	display: inline-block;
+	height: 16px;
+	width: 84px;
+}
+.review-stars {
+	background: url('full-stars.png') scroll 0 0 no-repeat transparent;
+	display: inline-block;
+	height: 16px;
+	max-width: 84px;
+}
